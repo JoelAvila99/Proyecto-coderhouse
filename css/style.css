@@ -1,0 +1,485 @@
+@charset "UTF-8";
+/*ESTE ESTILO SE APLICA A TODO EL DOC*/
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  max-width: 1440px;
+  font-family: sans-serif;
+}
+
+li {
+  display: inline-block;
+}
+
+#body {
+  background-color: rgba(89, 63, 63, 0.413);
+  width: 100%;
+  height: 100vh;
+  height: auto;
+}
+
+/*ESTE ESTILO SE APLICA A navegación*/
+#header {
+  background-color: transparent;
+}
+
+.navBar {
+  background-image: url(/images/banner.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+.navBar {
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.792);
+}
+
+.navBar a {
+  color: #ffffff;
+}
+
+.navbar-brand img {
+  width: 70px;
+  border-radius: 50%;
+  box-shadow: 0 0 30px rgba(138, 98, 98, 0.792);
+}
+
+.nav-link active {
+  color: #ffffff;
+}
+
+/*ESTE ESTILO SE APLICA A BANNER*/
+.main_banner {
+  width: 100%;
+  height: 90vh;
+  background-image: url(/images/banner.jpg);
+  background-position: auto;
+  background-size: cover;
+  background-attachment: fixed;
+  box-sizing: border-box;
+}
+
+.main_banner-opaco {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.142);
+}
+
+.main__banner-picture {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main_banner div {
+  padding-top: 100px;
+}
+
+.titulo-banner {
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 6px rgb(255, 255, 255);
+  letter-spacing: 1px;
+  text-align: center;
+  margin: auto;
+  max-width: 500px;
+}
+
+.main_banner h2 {
+  font-weight: 900;
+  font-family: Bebas Neue;
+  font-style: italic;
+  font-size: 2.1em;
+}
+
+.main_banner h3 {
+  font-weight: 500;
+  font-family: Bebas Neue;
+}
+
+/*///////ESTE ESTILO SE APLICA A main/////*/
+#main {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.911);
+  margin: 0;
+  overflow: hidden;
+}
+
+/*//////////ESTE ESTILO SE APLICA A footer////////////////*/
+#footer {
+  color: rgba(255, 253, 253, 0.918);
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.831);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+.footer-novedades {
+  text-align: center;
+}
+
+.footer-novedades h4 {
+  font-family: Bebas Neue;
+}
+
+.footer-novedades-form input, textarea {
+  background-color: transparent;
+  border: none;
+  border: 1px rgb(230, 230, 230) solid;
+  color: rgba(224, 213, 213, 0.6235294118);
+  width: 100%;
+}
+
+.footer-novedades-form {
+  padding: 5px;
+  max-width: 300px;
+  font-family: Bebas Neue;
+}
+
+.footer-novedades-form fieldset {
+  padding: 10px;
+  border: none;
+  margin: 1px;
+  box-shadow: 0 0 2px rgba(218, 214, 214, 0.662);
+  font-family: Bebas Neue;
+}
+
+.footer-novedades-form h4 {
+  padding: 5px;
+  font-weight: 200;
+  color: #e4dede;
+  font-family: Bebas Neue;
+}
+
+.footer-contacto {
+  text-align: center;
+}
+
+.footer-contacto h4 {
+  font-size: 20px;
+  padding-top: 15px;
+  font-weight: 200;
+  font-family: Bebas Neue;
+}
+
+.footer-contacto i {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.footer-redes i {
+  font-size: 16px;
+  margin-left: 10px;
+  display: block;
+  margin: 40px;
+  font-weight: 200;
+}
+
+input::placeholder {
+  color: rgba(214, 203, 203, 0.568627451);
+}
+
+/*////RESPONSIVE/////*/
+@media screen and (max-width: 400px) {
+  .main__banner-picture {
+    height: auto;
+  }
+}
+/*ESTE ESTILO APLICA A PAGE MENU*/
+.grid {
+  margin: 150px 0 150px 0;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  flex-wrap: wrap;
+}
+.grid .card img {
+  width: 100%;
+  height: 200px;
+  border-radius: 20%;
+}
+.grid .card {
+  width: 200px;
+  text-align: center;
+}
+.grid .card h3 {
+  font-family: Bebas Neue;
+  margin-top: 10px;
+  border: 2px dashed black;
+}
+
+/*////////// ESTE ESTILO SE APLICA A PAGE CONTACTANOS/////////////////*/
+/* ESTE ESTILO SE APLICA A FORMULARIO E ICONS REDES*/
+.contact {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px;
+  margin: 200px 0 200px 0;
+}
+.contact .icons_contact {
+  display: inline;
+  margin: auto;
+  color: rgba(0, 0, 0, 0.808);
+  font-weight: 100;
+}
+.contact .icons_contact i {
+  display: block;
+  padding: 20px;
+  font-size: 30px;
+  padding: 10px;
+}
+.contact .icons_contact h3 {
+  font-size: 14px;
+  font-weight: 100;
+  text-shadow: 0 0 1px rgba(253, 253, 253, 0.281);
+  margin-top: 20px;
+}
+.contact .form_contactanos {
+  max-width: 500px;
+  margin: auto;
+  font-family: Bebas Neue;
+  font-style: italic;
+  background-color: rgba(0, 0, 0, 0.8274509804);
+  padding: 20px;
+  box-shadow: 0 25px 25px rgba(0, 0, 0, 0.954);
+  margin-bottom: 20px;
+  border-radius: 10%;
+  color: rgba(255, 255, 255, 0.808);
+}
+.contact .form_contactanos input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  padding: 6px 12px;
+  margin: 20px 0;
+}
+.contact .form_contactanos h2 {
+  text-align: center;
+  font-weight: 400;
+  padding: 10px;
+  text-shadow: 0 0 1px rgb(0, 0, 0);
+}
+.contact textarea {
+  min-width: 100%;
+  resize: vertical;
+  min-height: 100px;
+  max-height: 150px;
+  margin-top: 20px;
+}
+.contact .form_imput {
+  padding: 10px;
+}
+
+/* ESTE ESTILO SE APLICA A PAGE INGRESO*/
+.ingreso {
+  display: flex;
+  margin: 200px 0 200px 0;
+}
+.ingreso .form_ingreso {
+  max-width: 500px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.8274509804);
+  padding: 20px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.954);
+  margin-bottom: 20px;
+  border-radius: 10%;
+  color: rgba(255, 255, 255, 0.808);
+}
+.ingreso .form_ingreso input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  padding: 6px 12px;
+  margin: 20px 0;
+}
+.ingreso .form_ingreso h3 {
+  font-family: "Bebas Neue";
+  font-style: italic;
+  font-weight: 100;
+  font-size: 2em;
+  padding: 20px;
+  text-align: center;
+  text-shadow: 0 0 1px rgb(217, 201, 201);
+}
+.ingreso .form_input submit {
+  color: antiquewhite;
+}
+.ingreso .img_ingreso {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  box-shadow: 0 25px 45px black;
+  margin: auto;
+  margin-left: 20px;
+}
+
+/*ESTILO PAGE SOBRE NOSOTROS*/
+/*.inicio__contenido_sobrenos {
+        width: 70vw;
+        margin: auto;
+        margin-bottom: 200px;
+        margin-top: 100px;
+        h4 {
+            font-family: Bebas Neue;
+            text-align: center;
+            font-size: 2.5em;
+            font-style: italic;
+            padding: 10px;
+        }
+        article {
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+            p{
+                margin: 20px;
+                width: 500px;
+            }
+            img {
+                width: 350px;
+                height: 350px;
+            }
+} */
+.contenedor-acordeon {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+.contenedor-acordeon h3 {
+  font-family: Bebas Neue;
+  font-style: italic;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 35px;
+}
+
+.acordeon {
+  background-color: rgb(255, 255, 255);
+}
+.acordeon label {
+  font-weight: 100;
+  text-align: center;
+  font-family: Bebas Neue;
+  display: block;
+  padding: 20px;
+  font-size: 20px;
+  background-color: rgba(21, 21, 22, 0.82);
+  color: white;
+  cursor: pointer;
+  margin-bottom: 2px;
+  transition: all 3000ms ease;
+}
+.acordeon label:hover {
+  background: #2e2e2e;
+}
+.acordeon .contenido-acordeon {
+  padding: 0;
+  margin: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 1000ms ease;
+  display: flex;
+  flex-direction: column;
+}
+.acordeon .contenido-acordeon img {
+  margin: auto;
+}
+.acordeon .contenido-acordeon p {
+  padding: 100px;
+}
+
+.btn-acordeon {
+  display: none;
+}
+.btn-acordeon:checked + label + .contenido-acordeon {
+  max-height: 100%;
+  padding: 15px 0;
+}
+
+body {
+  background-color: rgba(255, 255, 255, 0.911);
+}
+
+.inicio__contenido1-h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  letter-spacing: 3px;
+  font-weight: 400;
+  padding: 10px;
+  margin: 4px;
+  text-align: center;
+  border: 3px rgba(0, 0, 0, 0.297) dashed;
+  color: rgb(0, 0, 0);
+}
+
+.inicio__contenido1 {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 70px;
+  flex-wrap: wrap;
+}
+.inicio__contenido1 img {
+  width: 40%;
+  border: 1px solid black;
+  box-shadow: 0 0 15px black;
+}
+
+.presentacion_incio {
+  margin-top: 70px;
+  margin-right: 70px;
+}
+.presentacion_incio h3 {
+  font-family: Bebas Neue;
+  font-size: 2.6em;
+  margin: auto;
+  text-align: center;
+  text-align: center;
+}
+.presentacion_incio p {
+  max-width: 300px;
+}
+
+.presentacion_incio1 {
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.presentacion_incio1 h4 {
+  text-align: center;
+  font-family: Bebas Neue;
+  margin-top: 100px;
+  font-size: 2.6em;
+}
+
+/*ESTE ESTILO SE APLICA A VIDEO SITIO */
+.video_del_sitio {
+  margin: 20px;
+}
+
+.video_del_sitio h3 {
+  font-family: Bebas Neue;
+}
+
+.video_sitio {
+  margin: 40px 0px 40px 20px;
+  box-shadow: 10px 10px 45px rgb(0, 0, 0);
+  width: 90%;
+}
+
+/*# sourceMappingURL=style.css.map */

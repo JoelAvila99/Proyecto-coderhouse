@@ -1,0 +1,76 @@
+/*////////// ESTE ESTILO SE APLICA A PAGE CONTACTANOS/////////////////*/
+
+
+
+/* ESTE ESTILO SE APLICA A FORMULARIO E ICONS REDES*/
+
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px;
+    margin: 200px 0 200px 0;
+                .icons_contact  {
+                    display: inline;
+                    margin: auto;
+                    color: rgba(0, 0, 0, 0.808);
+                    font-weight: 100;
+                }
+    
+                .icons_contact i {
+                    display: block;
+                    padding: 20px;
+                    font-size: 30px;
+                    padding: 10px;
+                }
+    
+                .icons_contact h3 {
+                    font-size: 14px;
+                    font-weight: 100;
+                    text-shadow: 0 0 1px rgba(253, 253, 253, 0.281);
+                    margin-top: 20px;
+                }
+                .form_contactanos {
+                    max-width: 500px;
+                    margin: auto;
+                    font-family: Bebas Neue;
+                    font-style: italic;
+                    background-color: #000000d3;
+                    padding: 20px;
+                    box-shadow:  0 25px 25px rgba(0, 0, 0, 0.954);
+                    margin-bottom: 20px;
+                    border-radius: 10%;
+                    color: rgba(255, 255, 255, 0.808);
+                }
+                
+                .form_contactanos input {
+                    width: 100%;
+                    background-color: transparent;
+                    border: none;
+                    border-bottom: 1px solid #000000;
+                    padding: 6px 12px ;
+                    margin: 20px 0;
+                }
+                
+                .form_contactanos h2 {
+                    text-align: center;
+                    font-weight: 400;
+                    padding: 10px;
+                    text-shadow: 0 0 1px rgb(0, 0, 0);
+                }
+                
+                textarea {
+                    min-width: 100%;
+                    resize: vertical;
+                    min-height: 100px;
+                    max-height: 150px;
+                    margin-top: 20px;
+                }
+                .form_imput {
+                    padding: 10px ;
+                }
+}
+
+
+

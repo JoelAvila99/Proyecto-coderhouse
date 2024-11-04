@@ -1,0 +1,74 @@
+/*//////////ESTE ESTILO SE APLICA A footer////////////////*/
+
+
+
+
+
+#footer {
+    color: rgba(255, 253, 253, 0.918);
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.831);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.footer-novedades {
+    text-align: center;
+}
+.footer-novedades h4 {
+    font-family: Bebas Neue;
+}
+.footer-novedades-form input, textarea{
+    background-color: transparent;
+    border: none;
+    border: 1px rgb(230, 230, 230) solid;
+    color: #e0d5d59f;
+    width: 100%;
+}
+.footer-novedades-form {
+    padding: 5px;
+    max-width: 300px;
+    font-family: Bebas Neue;
+}
+.footer-novedades-form fieldset {
+    padding: 10px;
+    border: none;
+    margin: 1px;
+    box-shadow: 0 0 2px rgba(218, 214, 214, 0.662);
+    font-family: Bebas Neue;
+}
+.footer-novedades-form h4 {
+    padding: 5px;
+    font-weight: 200;
+    color: #e4dede;
+    font-family: Bebas Neue;
+}
+.footer-contacto {
+    text-align: center;
+
+}
+.footer-contacto h4 {
+    font-size: 20px;
+    padding-top: 15px;
+    font-weight: 200;
+    font-family: Bebas Neue;
+}
+.footer-contacto i {
+    font-size: 30px;
+    margin: 10px;
+}
+.footer-redes i{
+    font-size: 16px;
+    margin-left: 10px;
+    display: block;
+    margin: 40px;
+    font-weight: 200;
+}
+
+input::placeholder {
+    color: #d6cbcb91;
+}

@@ -1,0 +1,25 @@
+/*ESTE ESTILO APLICA A PAGE MENU*/
+
+
+.grid {
+    margin: 150px 0 150px 0;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    flex-wrap: wrap;
+        .card img {
+            width: 100%;
+            height: 200px;
+            border-radius: 20%;
+        }
+        .card   {
+        width: 200px;
+        text-align: center;
+        }
+            .card h3 {
+                font-family: Bebas Neue;
+                margin-top: 10px;
+                border: 2px dashed black;
+            }
+}
+

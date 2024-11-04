@@ -1,0 +1,26 @@
+/*ESTE ESTILO SE APLICA A navegación*/
+
+#header {
+    background-color: transparent;
+}
+.navBar{
+    background-image: url(/images/banner.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.navBar {
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.792);
+}
+.navBar a {
+        color: #ffffff;
+}
+
+.navbar-brand img {
+    width: 70px;
+    border-radius: 50%;
+    box-shadow: 0 0 30px rgba(138, 98, 98, 0.792);
+}
+.nav-link active {
+    color: #ffffff;
+}
