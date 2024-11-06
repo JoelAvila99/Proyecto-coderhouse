@@ -200,6 +200,10 @@ input::placeholder {
     padding: 0;
     margin: 0;
     width: 100%;
+    height: auto;
+  }
+  .contenido-acordeon img {
+    width: 100%;
   }
 }
 /*ESTE ESTILO APLICA A PAGE MENU*/
@@ -408,7 +412,8 @@ input::placeholder {
   margin: auto;
 }
 .acordeon .contenido-acordeon p {
-  padding: 100px;
+  padding: 20px;
+  margin-top: 20px;
 }
 
 .btn-acordeon {
