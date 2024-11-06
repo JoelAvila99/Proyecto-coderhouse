@@ -188,9 +188,9 @@ input::placeholder {
 }
 
 /*////RESPONSIVE/////*/
-@media screen and (max-width: 400px) {
-  .main__banner-picture {
-    height: auto;
+@media screen and (max-width: 600px) {
+  .main__banner {
+    background-position: center;
   }
 }
 /*ESTE ESTILO APLICA A PAGE MENU*/

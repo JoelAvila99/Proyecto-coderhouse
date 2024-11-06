@@ -7,6 +7,10 @@
     <meta name="description" content="El nuevo rincón gastronómico que transformará tus mañanas! En un mundo donde cada bocado cuenta, hemos decidido enfocarnos en una de las delicias más queridas en la cultura del desayuno">
     <meta name="og:image" content="images/banner.jpg">
     <meta name="author" content="Joel Avila">
+    <!--LIBRERIA ANIMACIONES (ANIMATE)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--LIBRERIA ANIMACIONES (AOES)-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--LIBRERIA FONT AWESOME/ICONS-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="/icons/9126425.ico" type="image/x-icon">
@@ -35,7 +39,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav" >
                 <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+                    <a class="nav-link active animate__animated animate__rubberBand animate__infinite	infinite" aria-current="page" href="#">INICIO</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="pages/menu.html">MENU</a>
@@ -60,7 +64,7 @@
         <section class="main_banner">
             <div class="main_banner-opaco">
                 <picture class="main__banner-picture" >
-                <div class="titulo-banner">
+                <div class="titulo-banner animate__animated animate__fadeInUp animate__slow	2s">
                     <h2>Bienvenido a "La media luna"</h2>
                     <h3>Disfruta del mejor café en un ambiente acogedor</h3>
                 </div>
@@ -70,11 +74,11 @@
         <!--ESTRUCTURA°2 = MAIN-->
         
     <main id="main">
-            <h1 class="inicio__contenido1-h1">"UN LUGAR PARA SABOREAR EL ALMA DE CADA CAFE Y LA MAGIA DE CADA FACTURA"</h1>
-            <h1 class="inicio__contenido1-h1">"HORARIOS DE ATENCION:
+            <h1 class="inicio__contenido1-h1" data-aos="zoom-in-right">"UN LUGAR PARA SABOREAR EL ALMA DE CADA CAFE Y LA MAGIA DE CADA FACTURA"</h1>
+            <h1 class="inicio__contenido1-h1" data-aos="zoom-in-right">"HORARIOS DE ATENCION:
                 LUNES A DOMINGOS DE 8hs a 20hs"</h1>
                 
-            <section class="inicio__contenido1">
+            <section class="inicio__contenido1" data-aos="fade-right">
                 <div class="presentacion_incio">
                     <h3>Veni a conocernos</h3>
                     <p>Despierta tus sentidos con el aroma de un buen café y el sabor inigualable de nuestras facturas artesanales</p>
@@ -82,12 +86,12 @@
                 <img src="images/cafe.jpg" alt="">
             </section>
         <section>
-            <article class="presentacion_incio1">
+            <article class="presentacion_incio1" data-aos="fade-down-right">
                 <h4>¡Bienvenidos a “Media Luna Café”</h4>
                 <p>El nuevo rincón gastronómico que transformará tus mañanas! En un mundo donde cada bocado cuenta, hemos decidido enfocarnos en una de las delicias más queridas en la cultura del desayuno: las media lunas. Nuestra cafetería no solo es un lugar para disfrutar de una buena comida, sino también un espacio cálido y acogedor donde cada cliente se siente como en casa.</p>
             </article>
         </section>
-        <div class="video_del_sitio">
+        <div class="video_del_sitio"  data-aos="flip-left">
             <h3>Te dejamos un paso a paso de como hacemos nuestras facturas</h3>
             <iframe class="video_sitio" width="100" height="315" src="https://www.youtube.com/embed/k6iBmUSPEzY?si=bqcs_0-6dbOhhpeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
@@ -129,8 +133,12 @@
         </section>
     </footer>
     <!--SCRIPT BTS-->
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
     "></script>
+    <!--SCRIPT AOES-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
