@@ -224,6 +224,7 @@ input::placeholder {
   width: 100%;
   margin: 10px;
   margin: 200px 0 200px 0;
+  flex-wrap: wrap;
 }
 .contact .icons_contact {
   display: inline;
@@ -284,6 +285,7 @@ input::placeholder {
 .ingreso {
   display: flex;
   margin: 200px 0 200px 0;
+  flex-wrap: wrap;
 }
 .ingreso .form_ingreso {
   max-width: 500px;
