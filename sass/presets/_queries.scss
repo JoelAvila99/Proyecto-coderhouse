@@ -1,12 +1,29 @@
 /*////RESPONSIVE/////*/
 
 @media screen and (max-width: 500px)   {
-    .main__banner {
+    .main_banner {
+        width: 100%;
+        height: 50vh;
         background-image: url(./../images/banner.jpg);
-        background-position: center;
-        background-size: contain;
+        background-position: bottom;
+        background-size: cover;
         background-attachment: fixed;
         box-sizing: border-box;
+        overflow:hidden;
+    }
+    
+    .main_banner-opaco {
+        width: 100%;
+        height: 100%;background-color: rgba(0, 0, 0, 0.142);
+    }
+    
+    
+    .main__banner-picture {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
     .contenido-acordeon p {
         padding: 0;
@@ -17,5 +34,13 @@
     .contenido-acordeon img {
         width: 100%;
     }
-
+    .form_contactanos {
+        margin: 20px;
+        width: 90%;
+    }
+    .form_ingreso {
+        width: 90%;
+    }
+    
 }
+
